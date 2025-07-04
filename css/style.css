@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap');
+
+:root {
+    --cream: #F5EFE6;
+    --navy: #1A2C50;
+    --gold: #D4AF37;
+    --black: #1E1E1E;
+    --white: #FFFFFF;
+}
+
+html {
+    /* Menambahkan scroll-behavior smooth di sini agar semua navigasi mulus */
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--cream);
+    color: var(--black);
+    overflow-x: hidden; /* Mencegah scroll horizontal */
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Playfair Display', serif;
+}
+
+/* Kelas utilitas untuk warna agar bisa digunakan bersama Tailwind */
+.bg-navy { background-color: var(--navy); }
+.text-cream { color: var(--cream); }
+.text-gold { color: var(--gold); }
+.text-navy { color: var(--navy); }
+.border-gold { border-color: var(--gold); }
+
+/* Gaya untuk garis bawah judul seksi */
+.section-title {
+    position: relative;
+    display: inline-block;
+}
+
+.section-title:after {
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 3px;
+    background: var(--gold);
+    bottom: -10px;
+    left: 25%; /* Dibuat di tengah */
+}
+
+/* Gaya untuk progress bar di bagian skill */
+.skill-bar {
+    height: 8px;
+    background-color: rgba(212, 175, 55, 0.2);
+    border-radius: 4px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.skill-progress {
+    height: 100%;
+    background-color: var(--gold);
+    border-radius: 4px;
+    width: 0%; /* Dimulai dari 0% agar animasi terlihat */
+}
