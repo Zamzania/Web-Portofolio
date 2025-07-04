@@ -9,7 +9,7 @@ document.getElementById('globe-container').appendChild(renderer.domElement);
 // Create the Globe
 const geometry = new THREE.SphereGeometry(5, 32, 32);
 const textureLoader = new THREE.TextureLoader();
-const texture = textureLoader.load('assets/earth-map.jpg');
+const texture = textureLoader.load('assets/earth-map.png');
 const material = new THREE.MeshBasicMaterial({ map: texture });
 const sphere = new THREE.Mesh(geometry, material);
 scene.add(sphere);
