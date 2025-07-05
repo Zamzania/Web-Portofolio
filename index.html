@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio pribadi Praja Alim Zamzani, seorang mahasiswa Hubungan Internasional yang berfokus pada studi diplomatik dan ekonomi politik internasional.">
+    
+    <title>Praja Alim Zamzani | International Relations</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="antialiased">
+    <nav class="bg-navy text-cream fixed w-full z-50 shadow-lg">
+        <div class="container mx-auto px-6 py-4">
+            <div class="flex justify-between items-center">
+                <div class="text-2xl font-bold text-gold">Praja Alim Zamzani</div>
+                <div class="hidden md:flex space-x-6">
+                    <a href="#home" class="hover:text-gold transition duration-300">Home</a>
+                    <a href="#about" class="hover:text-gold transition duration-300">About</a>
+                    <a href="#experience" class="hover:text-gold transition duration-300">Experience</a>
+                    <a href="#skills" class="hover:text-gold transition duration-300">Skills</a>
+                    <a href="#certificates" class="hover:text-gold transition duration-300">Certificates</a>
+                    <a href="#contact" class="hover:text-gold transition duration-300">Contact</a>
+                </div>
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-cream focus:outline-none">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="mobile-menu" class="hidden md:hidden">
+            <a href="#home" class="block py-2 px-6 text-sm hover:bg-gray-700">Home</a>
+            <a href="#about" class="block py-2 px-6 text-sm hover:bg-gray-700">About</a>
+            <a href="#experience" class="block py-2 px-6 text-sm hover:bg-gray-700">Experience</a>
+            <a href="#skills" class="block py-2 px-6 text-sm hover:bg-gray-700">Skills</a>
+            <a href="#certificates" class="block py-2 px-6 text-sm hover:bg-gray-700">Certificates</a>
+            <a href="#contact" class="block py-2 px-6 text-sm hover:bg-gray-700">Contact</a>
+        </div>
+    </nav>
+
+    <section id="home" class="min-h-screen flex items-center justify-center pt-20 bg-cream">
+        <div class="container mx-auto px-6 flex flex-col md:flex-row items-center text-center md:text-left">
+            <div class="md:w-1/2 mb-10 md:mb-0 anim-reveal">
+                <h1 class="text-4xl md:text-6xl font-bold mb-4 text-navy">Praja Alim <span class="text-gold">Zamzani</span></h1>
+                <h2 class="text-2xl md:text-3xl mb-6 text-navy">International Relations Student</h2>
+                <p class="text-lg mb-8 max-w-lg mx-auto md:mx-0">Focusing on diplomatic studies and international political economy with a passion for global affairs and conflict resolution.</p>
+                <div class="flex space-x-4 justify-center md:justify-start">
+                    <a href="#contact" class="bg-navy text-cream px-6 py-3 rounded-lg hover:bg-opacity-90 transition duration-300">Contact Me</a>
+                </div>
+            </div>
+            <div class="md:w-1/2 flex justify-center anim-reveal">
+                 <div class="w-64 h-64 md:w-80 md:h-80">
+                    <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_sk5h1kfn.json" background="transparent" speed="1" loop autoplay></lottie-player>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12 anim-reveal">
+                <h2 class="section-title text-3xl md:text-4xl font-bold text-navy">About Me</h2>
+            </div>
+            <div class="max-w-4xl mx-auto anim-reveal">
+                <h3 class="text-2xl font-bold mb-4 text-navy text-center">Diplomatic Studies Enthusiast</h3>
+                <p class="mb-6 text-center text-gray-700">As a dedicated student at the University of Mataram, I am deeply passionate about the intricate dynamics of global politics and diplomacy. My academic focus is on understanding and analyzing diplomatic strategies and the complexities of the international political economy. I thrive in environments that challenge me to think critically, negotiate effectively, and contribute to resolving global issues.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="py-20 bg-navy text-cream">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12 anim-reveal">
+                <h2 class="section-title text-3xl md:text-4xl font-bold text-cream">My Experience</h2>
+            </div>
+            <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white bg-opacity-10 p-6 rounded-lg anim-reveal">
+                    <h3 class="text-xl font-bold mb-2 text-gold">Model UN Delegate</h3>
+                    <p class="text-sm opacity-80 mb-3">International Relations West Nusa Tenggara MUN | 2025</p>
+                    <p class="opacity-90">Represented various nations in simulated UN committees, developing resolutions on "Fortifying Sovereignty: Reaffirming Border Security and Human Rights".</p>
+                </div>
+                <div class="bg-white bg-opacity-10 p-6 rounded-lg anim-reveal">
+                    <h3 class="text-xl font-bold mb-2 text-gold">Shoreline Saviors</h3>
+                    <p class="text-sm opacity-80 mb-3">HI Unram | 2023</p>
+                    <p class="opacity-90">An environmental-saving event focused on coastal preservation. Involved in planning, execution, and community outreach.</p>
+                </div>
+                <div class="bg-white bg-opacity-10 p-6 rounded-lg anim-reveal">
+                    <h3 class="text-xl font-bold mb-2 text-gold">Devotion in Village (DIVE)</h3>
+                    <p class="text-sm opacity-80 mb-3">HI Unram | 2023</p>
+                    <p class="opacity-90">Community service program involving social assistance, community engagement, and providing education on environmental issues.</p>
+                </div>
+                <div class="bg-white bg-opacity-10 p-6 rounded-lg anim-reveal">
+                    <h3 class="text-xl font-bold mb-2 text-gold">Head of Vocal Organization</h3>
+                    <p class="text-sm opacity-80 mb-3">2019 - 2020</p>
+                    <p class="opacity-90">Led and managed a vocal organization, coordinating performances, training, and member activities.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12 anim-reveal">
+                <h2 class="section-title text-3xl md:text-4xl font-bold text-navy">Education</h2>
+            </div>
+            <div class="max-w-2xl mx-auto bg-cream p-8 rounded-lg shadow-md text-center anim-reveal">
+                 <i class="fas fa-university text-4xl mb-4 text-gold"></i>
+                 <h3 class="text-2xl font-bold text-navy">University of Mataram</h3>
+                 <p class="text-md text-gray-700">Department of International Relations</p>
+                 <p class="text-md text-gray-700 mt-4">
+                "A superior and competitive study program in the development of diplomatic studies, security, and international political economy." Focusing on diplomatic studies and international political economy with courses in global governance, conflict resolution, and international law.
+                </p>
+                 <a href="https://hi.unram.ac.id/" target="_blank" class="inline-block mt-4 text-navy hover:text-gold transition">
+                    Visit Department Website <i class="fas fa-external-link-alt ml-1"></i>
+                 </a>
+            </div>
+        </div>
+    </section>
+    
+    <section id="skills" class="py-20 bg-navy text-cream">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12 anim-reveal">
+                <h2 class="section-title text-3xl md:text-4xl font-bold text-cream">Skills & Competencies</h2>
+            </div>
+            <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-12">
+                <div class="anim-reveal">
+                    <h3 class="text-xl font-bold mb-4 text-center text-gold">Professional Skills</h3>
+                    <div class="space-y-4">
+                        <div>
+                            <div class="flex justify-between mb-1"><span>Political Analysis</span><span>90%</span></div>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 90%;"></div></div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1"><span>Conflict Resolution</span><span>90%</span></div>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 90%;"></div></div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1"><span>Policy Brief Writing</span><span>90%</span></div>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 90%;"></div></div>
+                        </div>
+                         <div>
+                            <div class="flex justify-between mb-1"><span>Negotiation</span><span>85%</span></div>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 85%;"></div></div>
+                        </div>
+                    </div>
+                </div>
+                 <div class="anim-reveal">
+                    <h3 class="text-xl font-bold mb-4 text-center text-gold">General Skills</h3>
+                     <div class="space-y-4">
+                        <div>
+                            <div class="flex justify-between mb-1"><span>Public Speaking</span><span>90%</span></div>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 90%;"></div></div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1"><span>Analytical Skill</span><span>90%</span></div>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 90%;"></div></div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1"><span>Editing</span><span>85%</span></div>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 85%;"></div></div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1"><span>Adobe Suite</span><span>80%</span></div>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 80%;"></div></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="anim-reveal md:col-span-2">
+                    <h3 class="text-xl font-bold mb-4 text-center text-gold">Languages</h3>
+                     <div class="space-y-4 max-w-md mx-auto">
+                        <div>
+                            <div class="flex justify-between mb-1"><span>Indonesian</span><span>Native (100%)</span></div>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 100%;"></div></div>
+                        </div>
+                        <div>
+                            <div class="flex justify-between mb-1"><span>English</span><span>Professional (80%)</span></div>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 80%;"></div></div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        </div>
+    </section>
+
+    <section id="certificates" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12 anim-reveal">
+                <h2 class="section-title text-3xl md:text-4xl font-bold text-navy">Certificates</h2>
+                <p class="text-gray-600 mt-4">Klik untuk melihat sertifikat</p>
+            </div>
+            <div class="max-w-4xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+                
+                <a href="certificates/E-Certificate-IRWNT-MUN-2025.pdf" target="_blank" class="block p-6 bg-cream rounded-lg shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300 anim-reveal">
+                    <i class="fas fa-award text-4xl text-gold mb-3"></i>
+                    <p class="font-semibold text-navy">MUN Delegate</p>
+                </a>
+                
+                <a href="certificates/E-Certificate-MUN-School.pdf" target="_blank" class="block p-6 bg-cream rounded-lg shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300 anim-reveal">
+                    <i class="fas fa-graduation-cap text-4xl text-gold mb-3"></i>
+                    <p class="font-semibold text-navy">MUN School</p>
+                </a>
+                
+                <a href="certificates/E-Certificate-Public-Speaking-School.pdf" target="_blank" class="block p-6 bg-cream rounded-lg shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300 anim-reveal">
+                    <i class="fas fa-microphone text-4xl text-gold mb-3"></i>
+                    <p class="font-semibold text-navy">Public Speaking School</p>
+                </a>
+                
+                <a href="certificates/E-Certificate-Debate-School.pdf" target="_blank" class="block p-6 bg-cream rounded-lg shadow-md hover:shadow-xl hover:-translate-y-1 transition-all duration-300 anim-reveal">
+                    <i class="fas fa-comments text-4xl text-gold mb-3"></i>
+                    <p class="font-semibold text-navy">Debate</p>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20 bg-navy text-cream">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12 anim-reveal">
+                <h2 class="section-title text-3xl md:text-4xl font-bold text-cream">Get In Touch</h2>
+            </div>
+            <div class="max-w-lg mx-auto anim-reveal">
+                <form action="https://formspree.io/f/xyzjvrrw" method="POST">
+                    <div class="mb-4">
+                        <label for="name" class="block mb-2">Your Name</label>
+                        <input type="text" id="name" name="name" class="w-full p-2 rounded bg-white bg-opacity-20 border border-gold focus:outline-none focus:ring-2 focus:ring-gold text-cream" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="email" class="block mb-2">Your Email</label>
+                        <input type="email" id="email" name="email" class="w-full p-2 rounded bg-white bg-opacity-20 border border-gold focus:outline-none focus:ring-2 focus:ring-gold text-cream" required>
+                    </div>
+                    <div class="mb-4">
+                        <label for="message" class="block mb-2">Message</label>
+                        <textarea id="message" name="message" rows="4" class="w-full p-2 rounded bg-white bg-opacity-20 border border-gold focus:outline-none focus:ring-2 focus:ring-gold text-cream" required></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-gold text-navy font-bold py-3 rounded hover:bg-opacity-90 transition duration-300">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-10 bg-black bg-opacity-90 text-cream">
+        <div class="container mx-auto px-6 text-center">
+            <div class="mb-4">
+                <a href="mailto:prajaalim2605@gmail.com" class="mx-3 hover:text-gold"><i class="fas fa-envelope mr-1"></i> Email</a>
+                <a href="https://www.instagram.com/zxmzn__/" target="_blank" class="mx-3 hover:text-gold"><i class="fab fa-instagram mr-1"></i> Instagram</a>
+                <a href="tel:081236212688" class="mx-3 hover:text-gold"><i class="fas fa-phone-alt mr-1"></i> Phone</a>
+            </div>
+            <p class="text-sm opacity-80">&copy; 2025 Praja Alim Zamzani. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
